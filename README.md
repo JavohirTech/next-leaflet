@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Leaflet Map with Multiple Tile Layers
 
-## Getting Started
+This project demonstrates how to integrate **Leaflet** with **Next.js** to create an interactive map that supports multiple tile layers.
 
-First, run the development server:
+## Features
+- ✅ Leaflet integration in Next.js
+- ✅ Multiple tile layers (OpenStreetMap, Google Maps, Satellite, etc.)
+- ✅ Dynamic map component
+- ✅ Custom markers and popups
+- ✅ Optimized for performance in a Next.js environment
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/JavohirTech/next-leaflet.git
+cd next-leaflet
+npm install
+```
+
+## Running Locally
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Deploy to Vercel
 
-## Learn More
+Click the button below to deploy your Next.js Leaflet map to Vercel:
 
-To learn more about Next.js, take a look at the following resources:
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/JavohirTech/next-leaflet)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Or manually deploy with the Vercel CLI:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm install -g vercel
+vercel
+```
 
-## Deploy on Vercel
+### Deploy to Netlify
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Click the button below to deploy your Next.js Leaflet map to Netlify:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JavohirTech/next-leaflet)
+
+Or manually deploy with the Netlify CLI:
+
+```bash
+npm install -g netlify-cli
+netlify deploy
+```
+
+### What This Includes
+* [Next.js](https://nextjs.org/)
+* [Leaflet](https://leafletjs.com/)
+* [React Leaflet](https://react-leaflet.js.org/)
